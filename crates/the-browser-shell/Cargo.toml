@@ -1,0 +1,23 @@
+[package]
+name = "the-browser-shell"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "the-browser"
+path = "src/main.rs"
+
+[dependencies]
+the-browser-core.workspace = true
+the-browser-storage.workspace = true
+the-browser-engine.workspace = true
+uuid.workspace = true
+libadwaita.workspace = true
+webkit6.workspace = true
+gtk4.workspace = true
+glib.workspace = true
+gio.workspace = true
+log.workspace = true
+env_logger.workspace = true

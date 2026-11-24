@@ -1,0 +1,15 @@
+[package]
+name = "the-browser-storage"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+the-browser-core.workspace = true
+rusqlite.workspace = true
+log.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+uuid.workspace = true
+

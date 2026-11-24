@@ -1,0 +1,16 @@
+[package]
+name = "the-browser-engine"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+
+[dependencies]
+the-browser-core.workspace = true
+the-browser-storage.workspace = true
+webkit6.workspace = true
+gtk4.workspace = true
+glib.workspace = true
+gio.workspace = true
+log.workspace = true
+
